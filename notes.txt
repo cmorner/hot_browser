@@ -1,0 +1,46 @@
+För att använda glade så behöver man ha GTK3+ installerat
+och behöver installera gobject något liknande som kan läsas om här:
+http://python-gtk-3-tutorial.readthedocs.io/en/latest/install.html
+sedan verkar det vara ganska rakt fram att bygga sitt interface
+
+
+[ ] Lägga till ett adressfält
+[ ] Lägga till en funktion för att köra en funktion för att göra requestet
+[ ] Skicka ett request till servern
+[ ] Hur ser ett sådant request ut? vad skall skickas
+[ ] Vi får antagligen tillbaka en index html fil
+[ ] Jag kan börja med att låta min webbläsare parsa mina egna väldigt sparsmakade hemsidor
+	Jag gissar på att jag kanske först bara får html filen och det första jag vill göra då
+	är att gå igenom och se efter vilka fler request jag behöver göra för att kunna visa hemsidan
+	på ett rätt sätt. typ bilder, javascriptfiler, ljud, texter, css
+[ ] Det som ligger inom body är det som till slut ska visas
+[ ] Titeln kan sättas högst uppe på fönstret
+[ ] 
+
+
+
+// få hem html markupen
+// 
+
+
+response:
+	Säker något typ av objekt
+	{
+		responseCode: '204' - ja tack det gick bra,
+		body: {
+			// lite extra data
+		}
+	}
+
+
+
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<title></title>
+			<link href="main.css" type="stylesheet" ></link>
+		</head>
+		<body>
+			<div>hejsan alla glada</div>
+		</body>
+	</html> 
