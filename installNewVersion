@@ -1,0 +1,11 @@
+#!/bin/bash
+
+installDir=~/.local/share/hot_browser
+
+cp hot_browser.py $installDir/HotBrowser
+
+cd $installDir
+
+chmod +x HotBrowser 
+
+echo "Installed new version at " $installDir

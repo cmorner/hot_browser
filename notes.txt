@@ -4,19 +4,77 @@ http://python-gtk-3-tutorial.readthedocs.io/en/latest/install.html
 sedan verkar det vara ganska rakt fram att bygga sitt interface
 
 
-[ ] Lägga till ett adressfält
-[ ] Lägga till en funktion för att köra en funktion för att göra requestet
-[ ] Skicka ett request till servern
-[ ] Hur ser ett sådant request ut? vad skall skickas
-[ ] Vi får antagligen tillbaka en index html fil
-[ ] Jag kan börja med att låta min webbläsare parsa mina egna väldigt sparsmakade hemsidor
+
+[ ] Skapa högerklick alternativ
+[ ] Skapa en topp meny element med någon funktion
+[ ] History stack
+[ ] Go back button
+[ ] Go forward button (use a stack add and pop)
+[ ] Refresh site button
+[ ] Skapa en liten marginal från kanten av fönstret till innehållet
+[ ] Texten wrappas så att den stannar inom fönstrets bredd
+[ ] Göra body fönstret scrollbart så att all text visas
+[ ] Det går att trycka på enter för att gå till adressfältet
+[ ] Skapa en stor textruta där jag kan visa body taggen
+[ ] Gå igenom och hämta bilder
+[ ] Hämta css
+[ ] Hämta javascript
+[ ] Uppdatera nuvarande länken
+[ ] Det som ligger inom body är det som till slut ska visas
+[ ] Test website with basic css and html and maybe javascript
+[ ] Göra body content mer förståeligt
+[ ] Dom viktigaste elementen att visa
+	Text element, h, p, span, a, 
+	Funderar på om man kan gå in i html trädet och börja nedifrån och
+	vandra igenom det och skapa en text sträng som innehåller de sakerna jag vill ha
+	och rensa bort det som inte behövs
+	- Det skall gå att trycka på länkar de som är relativa bas urlen
+	och de som är absoluta
+
+	Script taggar visas inte
+
+[ ] Många taggar försvann när jag joinade listorna skulle nog behöva någon slags unit testning för att
+se att mina funktioner inte tar bort saker som borde vara kvar
+[ ] Kunna söka på google
+[ ] Kunna presentera sökresultat på google
+[ ] Present unicode characters
+[ ] Göra så att inte samma element visas flera gånger tex om en p innehåller flera a taggar
+[ ] Hämta ut all contents av subtaggarna inom en intressant tag
+[ ] Få ut datan ur varje lista, joina individuella listor med ' ' och listor i sin tur med \n
+
+[ ] Gå igenom html koden traversera och ta ut texten ur text element. markera länker på något vis.
+lägga till nyrader efter varje parsat textdokument
+[X] Kunna skicka med en länk som ett argument när programmet körs i terminalen
+[X] Skriva ett batchscript som kopierar filen från utvecklingsplatsen och lägger den i 
+~/.local/share/HotBrowser och sätter chmod +x
+[X] Få programmet att kunna köras från Terminalen
+[X] Få programmet att synas i finder
+[X] Skapa en logga till programmet
+[X] Texten går att markera och kopiera
+[X] Texten wrappas inom textfältet
+[X] Skapa en skrollbar på textfältet
+[X] Få kör knappen att köra en funktion när man trycker på den
+[X] Lägga till ett adressfält
+[X] Lägga till en funktion för att köra en funktion för att göra requestet
+[X] Skicka ett request till servern
+[X] Hur ser ett sådant request ut? vad skall skickas
+[X] Vi får antagligen tillbaka en index html fil
+[X] Jag kan börja med att låta min webbläsare parsa mina egna väldigt sparsmakade hemsidor
 	Jag gissar på att jag kanske först bara får html filen och det första jag vill göra då
 	är att gå igenom och se efter vilka fler request jag behöver göra för att kunna visa hemsidan
 	på ett rätt sätt. typ bilder, javascriptfiler, ljud, texter, css
-[ ] Det som ligger inom body är det som till slut ska visas
-[ ] Titeln kan sättas högst uppe på fönstret
-[ ] 
+[X] Titeln kan sättas högst uppe på fönstret
 
+
+
+expanding knowledge:
+	Skriva en python modul
+	Skriva ett chattprogram
+	Sätta upp en hemserver
+	Vad händer när man kör ett request, hur hittar datorerna fram till varandra?
+
+improv:
+få till padding kring Go knappen och sökfältet
 
 
 // få hem html markupen
